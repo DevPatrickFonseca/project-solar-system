@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mission-card {
+  background: rgba(24, 26, 37, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.658);
+  border-radius: 10px;
+  box-shadow: 2px 1px 10px 4px rgb(59, 59, 59);
+  margin: 10px;
+  min-height: 192px;
+  min-width: 496px;
+  mix-blend-mode: hard-light color white;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.mission-card-title {
+  border-bottom: 2px solid gray;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 15px;
+  text-shadow: 1px 1px 1px white , 0 0 3px white , 0 0 3px white;
+}
+
+.mission-card p {
+  padding: 10px;
+  text-align: left;
+}
+
+/* .mission-year {
+  background-image: url('../images/mission-year.png');
+}
+
+.mission-country {
+  background-image: url('../images/mission-country.png');
+}
+
+.mission-dest {
+  background-image: url('../images/mission-destination.png');
+} */

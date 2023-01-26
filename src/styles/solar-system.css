@@ -1,0 +1,21 @@
+.solar-system {
+  align-items: center;
+  border: 2px solid rgba(37, 37, 37, 0.658);
+  border-radius: 10px;
+  box-shadow: 2px 1px 10px 4px rgb(59, 59, 59);
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  overflow-x: hidden;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.65);
+  position: absolute;
+  top: 53%;
+  width: 100%;
+  z-index: 0;
+}

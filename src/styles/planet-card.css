@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  z-index: 1;
+}
+
+.Mercúrio {
+  width: 41px;
+}
+
+.Vênus {
+  width: 102px;
+}
+
+.Terra {
+  width: 106px;
+}
+
+.Marte {
+  width: 66px;
+}
+
+.Júpiter {
+  width: 272px;
+}
+
+.Júpiter, .Marte, .Mercúrio {
+  line-height: 150%;
+}
+
+.Saturno {
+  width: 282.41px;
+}
+
+.Netuno, .Saturno, .Terra {
+  line-height: 150%;
+}
+
+.Urano {
+  width: 144px;
+}
+
+.Urano, .Vênus {
+  line-height: 150%;
+}
+
+.Netuno {
+  width: 144px;
+}
